@@ -1,10 +1,18 @@
 /* General Styles */
 body {
-    background-color:lightcyan;
+    background-color:#799ACC;
+    margin: 0;
 }
 
 /* Nav Styles */
-nav {}
+nav {
+    background-color: rgb(191, 177, 123);
+    border-bottom: dashed #799ACC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
 
 nav p, nav a {}
 
