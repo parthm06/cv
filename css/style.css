@@ -14,16 +14,32 @@ nav {
     padding: 10px;
 }
 
-nav p, nav a {}
+nav p {
+    margin:0;
+}
 
-nav a {}
+nav a {
+    text-decoration:none;
+    color:azure;
+}
 
-nav a:hover {}
+nav a:hover {
+    color:blueviolet;
+}
 
 /* Footer Styles */
-footer {}
+footer {
+    background-color: antiquewhite;
+    border-style: ridge;
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+}
 
-footer a {}
+footer a {
+    text-decoration: none;
+    color:brown;
+}
 
 footer a:hover {}
 
