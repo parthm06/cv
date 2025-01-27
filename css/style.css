@@ -41,12 +41,19 @@ footer a {
     color:brown;
 }
 
-footer a:hover {}
+footer a:hover {
+    color:darkseagreen
+}
 
 /* Splash Section */
-.splash {}
+.splash {
+    text-align: center;
+    padding: 20px;
+}
 
-.splash h1 {}
+.splash h1 {
+font-family: ;
+}
 
 .splash img {}
 
