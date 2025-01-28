@@ -2,6 +2,7 @@
 body {
     background-color:#799ACC;
     margin: 0;
+    padding: 0;
 }
 
 /* Nav Styles */
@@ -33,7 +34,10 @@ footer {
     border-style: ridge;
     display: flex;
     justify-content:center;
-    padding: 10px;
+    align-items: center;
+    position:relative;
+    z-index: 1;
+    padding-bottom: 2em;
 }
 
 footer a {
@@ -42,64 +46,153 @@ footer a {
 }
 
 footer a:hover {
-    color:darkseagreen
+    color:darkseagreen;
+    z-index:1;
 }
 
 /* Splash Section */
 .splash {
     text-align: center;
     padding: 20px;
+    background-image: url("../images/UGA-Arch-headoni.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
 .splash h1 {
-font-family: ;
+    font-family: "Montserrat", serif;
+    font-size: 2.55rem;
+    color:rgb(227, 197, 160);
+    text-shadow: 2px 2px rgb(97, 96, 96);
+    text-decoration: underline;
 }
 
-.splash img {}
+.splash img {
+    border-radius:50%;
+    border:6px groove #1b1b1b;
 
-.splash p {}
+}
+
+.splash p {
+    font-style: oblique;
+    font-size: 20px;
+    color:rgb(235, 221, 201);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    text-emphasis:;
+    background-blend-mode:difference;
+}
 
 /* Horizontal Rules */
-hr {}
+hr {
+    border: 4px solid #ccc;
+    margin: 20px 0;
+}
 
 /* Sections */
 section {}
+.Education p{
+    font-size: 1.0rem;
+    line-height: 1.75rem;
+    color: #000000;
+}
 
 /* Section Headings */
-section h2 {}
+section h2 {
+    font-family: "Baskervville SC", serif;
+    font-size: 1.75rem;
+    color:darkblue;
+}
 
 /* Paragraph Styles */
-section p {}
+section p {
+    line-height: 1.75;
+    margin: 12px 0;
+}
 
 /* link styles */
-section a {}
-section a:hover {}
+section a {
+    color:blue;
+    text-decoration: none;
+}
+section a:hover {
+    color:goldenrod;
+    text-decoration:overline;
+}
 
 /* List Styles */
-ul {}
+ul {
+    list-style-type:square;
+    padding-left: 20px;
+}
 
-dl {}
-dl dt{}
+dl {
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+}
+dl dt{
+    font-weight: bold;
+}
 dl dd{}
 
 /* Project Section */
-.three-col {}
+.three-col {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap:25px;
+}
 
-.card {}
+.card {
+    background-color:bisque;
+    border: 2px solid #ccc;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    text-align: center;
+}
 
-.card img {}
+.card img {
+    max-width: 100%;
+    border-radius: 7px;
+}
 
-.card h3 {}
+.card h3 {
+    margin: 10px 0;
+    font-size: 1.45rem;
+}
 
 /* Contact Page Styles */
-.one-col {}
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
 
 form {}
 
-form input, form textarea {}
+form input, form textarea {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+}
 
-form input:focus, form textarea:focus {}
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: darkslategray;
+}
 
-form button {}
+form button {
+    padding: 12px 22px;
+    background-color: rgb(103, 148, 73);
+    color: brown;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
 
-form button:hover {}
+form button:hover {
+    background-color: darkseagreen;
+}

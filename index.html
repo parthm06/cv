@@ -8,6 +8,9 @@
     <link rel="stylesheet"  
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Baskervville+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta name="description" content="Your full name, professional background, and contact information.">
     <title>Parth Kishor Mendpara</title>
 </head>
@@ -31,9 +34,11 @@
     <hr>
 
     <section>
+        <div class="Education"> 
         <h2>Education</h2>
-        <p>University of Georgia, Franklin College of Arts & Sciences Athens GA, Bachelors in Computer Science, Minor in General Business, Expected Graduation: December 2025, GPA: 3.69, 
+        <p>University of Georgia, Franklin College of Arts & Sciences Athens GA, Bachelors in Computer Science, Minor in General Business, Expected Graduation: December 2025, GPA: 3.89, 
             Relevant Courses: Data Structures, Algorithims, Computer Networks, Software Development, Systems Programming</p>
+        </div>
     </section>
 
     <section>
@@ -72,6 +77,9 @@
 
     <section>
         <h2>Projects</h2>
+        <div class="three-col">
+            <div class="card">
+                <img src ='images/ContentFilteringpic.png' alt=" Content Fiiltering">
         <h3>Content Filtering Tool</h3>
         <ul>
             <li>Created a DNS filter to prohibit user access to specific sites in a parental control
@@ -79,17 +87,27 @@
             <li>Ensured that DNS queries were intercepted and then blocked before they could be resolved.</li>
             <li> Implemented an agile methodology to ensure that the project was completed before the deadline </li>
         </ul>
+    </div>
+    <div class="card">
+        <img src="images/DownloadAccpic.png" alt="Download Accelerrator">
         <h3>Download Accelerator</h3>
         <ul>
             <li>Created a download accelerator that would split things such as images into multiple different HTTP range requests to download a subpart of the file and cache the file. </li>
             <li> When the subparts were downloaded successfully from the internet using parallel tcp connections, the files were stitched back into one file to open. </li>
         </ul>
+        </div>
+
+        <div class="card">
+            <img src="images/StockPredictionPic.jpg" alt="Stock Predictor">
         <h3> Stock Prediction</h3>
         <ul>
             <li> Created a stock prediction app that would advise investors when to put money into specific companies.</li>
             <li> Integrated API calls to have the respones of API query another: Stocks API integrated with a News API. </li>
             <li> The Stocks API would have all finacial information about the company keyed on it's 3 letter ticker symbol, which would then be used to search for news about the company or those numbers to provide analytical insights for if investors should invest more capital or liquidate some stock</li>
         </ul>
+            </div>
+        </div>
+
     </section>
 
     <footer>
