@@ -76,7 +76,8 @@ footer a:hover {
 .splash p {
     font-style: oblique;
     font-size: 20px;
-    color:rgb(235, 221, 201);
+    /*color:rgb(235, 221, 201);*/
+    color:white;
     text-shadow: 2px 2px rgb(0, 0, 0);
     text-emphasis:;
     background-blend-mode:difference;
