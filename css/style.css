@@ -94,6 +94,16 @@ section {}
     font-size: 1.0rem;
     line-height: 1.75rem;
     color: #000000;
+    background-color: bisque;
+}
+.Honors{
+    background-color: bisque;
+}
+.Skills{
+    background-color: bisque;
+}
+.Leadership{
+    background-color:bisque;
 }
 
 /* Section Headings */
@@ -115,7 +125,7 @@ section a {
     text-decoration: none;
 }
 section a:hover {
-    color:goldenrod;
+    color:rgb(94, 73, 21);
     text-decoration:overline;
 }
 
